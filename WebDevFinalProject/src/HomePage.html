@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Home Page</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Styles.css" type="text/css"/>
+    <head>
+        <title>Home Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/Styles.css" type="text/css"/>
 
-</head>
-<body>
+    </head>
+    <body>
 
-<h2>The Homepage of our Website</h2>
-<p>In this example, we have created a header, three unequal columns and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect.</p>
+        <div class="header">
+            <h2>Home</h2>
+        </div>
 
-<div class="header">
-  <h2>Header</h2>
-</div>
+        <div class="row">
+            <div class="column left" style="background-color:#aaa;">
+                <p>
+                    <a href='./HomePage.html'>Home</a><br>
+                    <a href='./ContactUsPage.php'>Contact Us</a><br>
+                    <a href='./VideoPage.html'>Video Page</a><br>
+                    <a href='./PaperPage.html'>Paper Page</a><br>
+                    <a href='./FinalPage.html'>Final Page</a><br>
+                </p>
+            </div>
+            <div class="column middle" style="background-color:#bbb;">
+                <p> In the workspace there may be issues with other employees or work-related matters that need to be handled in a specific manner.</p>
+                <p> This page is a good starter if you're experiencing these issues such as any form of harassment or negligence in the workspace.</p>
+                <p> On the left-side column please navigate to the page you feel best suits you. Feel free to contact us for further questions or concerns.</p>
+                <p> Remember the intent of this program is to benefit the employee and the company, so do not feel embarrassed for contacting HR.</p>
+            </div>
+            <div class="column right" style="background-color:#ccc;">
+                <p> Corrective action is a program that aims to guide an employee toward better performance or behavior by identifying the problems.</p>
+                <p> A large part of corrective action is focused on finding the solution and to better the employee rather than punish.</p>
+                <p> If there isn't improvement, or the issues continue to occur then more serious action might take place.</p>
+                <p> This could range from an oral warning to the potential dismissal or demotion of an employee depending on the severity of the issue.</p> 
+            </div>
+        </div>
 
-<div class="row">
-  <div class="column side" style="background-color:#aaa;">
-      <p>
-      
-          <a href='../ContactUsPage.html'>Contact Us</a>
-          <a href='../VideoPage.html'>Video Page</a>
-          <a href='../PaperPage.html'>Paper Page</a>
-          <a href='../FinalPage.html'>Final Page</a>
-      
-      </p>
-  </div>
-  <div class="column middle" style="background-color:#bbb;">Column</div>
-  <div class="column side" style="background-color:#ccc;">Column</div>
-</div>
+        <div class="footer">
+            <p>Footer</p>
+        </div>
 
-<div class="footer">
-  <p>Footer</p>
-</div>
-
-</body>
+    </body>
 </html>

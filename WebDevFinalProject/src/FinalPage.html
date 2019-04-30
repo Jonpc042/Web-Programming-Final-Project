@@ -1,41 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Final Page</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Styles.css" type="text/css"/>
+    <head>
+        <title>Final Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/Styles.css" type="text/css"/>
 
-</head>
-<body>
+    </head>
+    <body>
 
-<h2>Not Sure what to put here</h2>
-<p>In this example, we have created a header, three unequal columns and a footer. On smaller screens, the columns will stack on top of each other.</p>
-<p>Resize the browser window to see the responsive effect.</p>
+        <div class="header">
+            <h2>Final Page</h2>
+        </div>
 
-<div class="header">
-  <h2>Header</h2>
-</div>
+        <div class="row">
+            <div class="column left" style="background-color:#aaa;">
+                <p>
 
-<div class="row">
-  <div class="column side" style="background-color:#aaa;">
-      <p>
-          
-          <a href='../HomePage.html'>Home</a>
-          <a href='../ContactUsPage.html'>Contact Us</a>
-          <a href='../VideoPage.html'>Video Page</a>
-          <a href='../PaperPage.html'>Paper Page</a>
-          <a href='../FinalPage.html'>Final Page</a>
-      
-      </p>
-  </div>
-  <div class="column middle" style="background-color:#bbb;">Column</div>
-  <div class="column side" style="background-color:#ccc;">Column</div>
-</div>
+                    <a href='./HomePage.html'>Home</a><br>
+                    <a href='./ContactUsPage.php'>Contact Us</a><br>
+                    <a href='./VideoPage.html'>Video Page</a><br>
+                    <a href='./PaperPage.html'>Paper Page</a><br>
+                    <a href='./FinalPage.html'>Final Page</a><br>
 
-<div class="footer">
-  <p>Footer</p>
-</div>
+                </p>
+            </div>
+            <div class="column middle" style="background-color:#bbb;">
+                <div class ="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="img_forest.jpg">
+                            <img src="images/presentation.jpg" alt="Presentation" width="800" height="562">
+                        </a>
+                        <div class="desc">Add a description of the image here</div>
+                    </div>
+                </div>
 
-</body>
+                <div class ="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="img_lights.jpg">
+                            <img src="images/blackJacketProfessional.jpg" alt="Black Jacket" width="852" height="480">
+                        </a>
+                        <p>As you return to work keep an eye out for the original issues and don't hesitate to return to HR, if you notice a lack of change.</p>
+			<p>Please try to continue your work with the individual in a professional manner, assuming the matter has been handled correctly.</p>
+			<p>.</p>
+                    </div>
+                </div>
+
+                <div class ="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="img_mountains.jpg">
+                            <img src="images/download.jpg" alt="Download" width="275" height="183">
+                        </a>
+                        <div class="desc">
+			<p>It's important that everyone is doing their job correctly and appropriately, so we appreciate your courage to take a stand.</p>
+			<p>Here at ZJ's we believe in hard work, and fair treatment of all individuals, and we apologize for the inconvenience.</p>
+			<p>Thank you for taking a leadership position on this issue, -The ZJ Human Resource Department.</p>
+			</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column right" style="background-color:#ccc;">Column</div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="img_5terre.jpg">
+                <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+            </a>
+            <div class="desc">Add a description of the image here</div>
+        </div>
+
+        <div class="footer">
+            <p>Footer</p>
+        </div>
+
+    </body>
 </html>
